@@ -71,8 +71,6 @@ fn main() {
             watermark_width,    
         ).unwrap();
 
-        let padding = 50_u32;
-
         let x = img.width().saturating_sub(watermark.width())  / 2;
         let y = img.height().saturating_sub(watermark.height()) / 2;
 
